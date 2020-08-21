@@ -1,18 +1,19 @@
-import React from 'react';
-import './Landing_Page.css';
-import {Link} from 'react-router-dom';
-const LandingPage=(props)=>{
-    return(
-        <div>
-        <div>
+import React from "react";
+import "./Landing_Page.css";
+import { Link } from "react-router-dom";
+const LandingPage = (props) => {
+  return (
+    <div>
+      <div>
         <Link to="/create">
-        <button className="landing-page-button">Create Survey</button>
+          <button className="landing-page-button">Create Survey</button>
         </Link>
-        </div>
-        <div>
+      </div>
+      <div>
         <button className="landing-page-button">Take Survey</button>
-        </div>
-        </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 export default LandingPage;
+//....
